@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".UserData">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/list_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="email"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@color/material_on_surface_emphasis_high_type" />
+
+                <TextView
+                    android:id="@+id/txtStreet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtSuite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtZipcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtGeo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="Geo"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@color/material_on_surface_emphasis_high_type" />
+
+                <TextView
+                    android:id="@+id/txtLat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtLng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Company"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@color/material_on_surface_emphasis_high_type" />
+
+                <TextView
+                    android:id="@+id/txtCompName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtCompCatchPhrase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+
+                <TextView
+                    android:id="@+id/txtCompBs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@color/material_on_surface_emphasis_medium" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
